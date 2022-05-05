@@ -1,0 +1,66 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+categories:
+  - data-visualization
+  - data-analytics
+description:
+  it:
+    documentation: |-
+      https://www.researchgate.net/publication/289374477_phenopix_R_package_vignettes_13_base_vignette
+    features:
+      - Fenologia
+      - Cambiamento climatico
+      - Ciclo del carbonio
+    genericName: Phenopix
+    longDescription: |
+      Elaborazione automatica di immagini digitali per analizzare lo sviluppo
+      stagionale della vegetazione (phenocam: fotocamere per tracciare lo
+      sviluppo della vegetazione).
+
+
+      Il software estrae da una serie di immagini digitali un indice di sviluppo
+      della vegetazione basato sui canali RGB. In seguito applica dei modelli
+      matematici per descrivere l'andamento stagionale dell'indice di verde ed
+      estrae le fasi fenologiche rilevanti. Il software è corredato da una serie
+      di funzioni per la sintesi e la visualizzazione dei dati fenologici.
+    shortDescription: |-
+      Elaborazione automatica di immagini digitali per analizzare lo sviluppo
+      stagionale della vegetazione
+developmentStatus: stable
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+legal:
+  license: AGPL-3.0-or-later
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: false
+maintenance:
+  contacts:
+    - affiliation: ARPA VDA
+      email: g.filippa@arpa.vda.it
+      name: Gianluca Filippa
+  type: none
+name: Phenopix
+platforms:
+  - linux
+  - windows
+releaseDate: '2022-05-05'
+softwareType: library
+softwareVersion: '2.3'
+url: 'https://github.com/ARPA-VdA/phenopix'
+usedBy:
+  - ARPA VDA
