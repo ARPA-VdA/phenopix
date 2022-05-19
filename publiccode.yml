@@ -37,6 +37,8 @@ it:
     misureMinimeSicurezza: false
     modelloInteroperabilita: false
   countryExtensionVersion: '0.2'
+  riuso:
+    codiceIPA: arpa_09
   piattaforme:
     anpr: false
     cie: false
